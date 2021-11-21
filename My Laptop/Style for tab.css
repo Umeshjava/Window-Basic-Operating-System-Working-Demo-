@@ -1,0 +1,433 @@
+@charset "utf-8";
+/* CSS Document */
+#tab{
+	height:650px;
+	width:1100px;
+	background:-webkit-linear-gradient(-40deg,#666,black);
+	border-radius:15px;
+	margin-left:100px;
+	}
+#screen{
+	height:570px;
+	width:1040px;
+//	background:url(Full%20panjab.jpg);
+	background:url(java.png);
+	margin:30px;
+	position:absolute;
+	}
+#Allicon{
+	height:515px;
+	width:200px;
+	//background:#F9C;
+	margin:2px;
+	}
+.Iconbox{
+	height:75px;
+	width:85px;
+	border:transparent solid 1px;
+	//background:#FF0;
+	float:left;
+	margin:2px;
+	color:#FFF;
+	font-size:12px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	}
+.Iconbox:hover{
+	background:#CCC;
+	border:#CCC solid 1px;
+	cursor:pointer;
+	}
+
+
+.Icon{
+	height:40px;
+	width:40px;
+	margin-top:5px;
+	}
+#taskbar{
+	height:46px;
+	width:100%;
+	background:#6CC;
+	opacity:0.5;
+	margin-top:8px;
+	}
+	
+	
+#dtaskbar{
+	height:47px;
+	width:1040px;
+	//background:#6CC;
+	margin-top:-3px;
+	margin-left:130px;
+	margin-top:-97px;
+	position:absolute;
+	}
+#wind1{
+	height:48px;
+	width:60px;
+	float:left;
+	//position:absolute;
+	margin-top:0px;
+	}
+#wind1:hover{
+	background:#000;
+	}
+.taskmenu{
+	height:42px;
+	width:50px;
+	float:left;
+	border:transparent solid 1px;
+	//background:#00F;
+	margin-left:1px;
+	margin-top:2px;
+	}
+.taskmenu:hover{
+	border-right:#CCC solid 1px;
+	border-left:#CCC solid 1px;
+	box-shadow:0px 0px 1px #CCC;
+	}
+.taskicon{
+	height:44px;
+	width:60px;
+	float:left;
+	margin-top:2px;
+	}
+.taskicon:hover{
+	border-radius:5px;
+	background:#CCC;
+	opacity:0.5;
+	}
+	
+	
+#dtime{
+	height:41px;
+	width:90px;
+	//border:#FFF solid 1px;
+	background:transparent;
+	float:right;
+	color:#FFF;
+	margin-top:5px;
+	}
+#dtime:hover{
+	cursor:pointer;
+	}
+		
+#time{
+	height:43px;
+	width:95px;
+	background:transparent;
+	//border:#FFF solid 1px;
+	position:absolute;
+	margin-left:945px;
+	margin-top:3px;
+	color:#FFF;
+	}
+#time:hover{
+	cursor:pointer;
+	}
+
+
+#wallpaper{
+	height:543px;
+	width:850px;
+	position:absolute;
+	background:#FFF;
+	border-top:5px solid #0F6;
+	border-left:5px solid #0F6;
+	border-right:5px solid #0F6;
+	border-bottom:5px solid #0F6;
+	margin-left:300px;
+	color:#0F6;
+	font-size:24px;
+	margin-top:-620px;
+	visibility:hidden;
+	}	
+.pics{
+	height:110px;
+	width:160px;
+	border:#666 solid 1px;
+	float:left;
+	margin:3px;
+	}
+.colors{
+	height:45px;
+	width:50px;
+	border:#999 solid 1px;
+	float:left;
+	margin-left:20px;
+	margin-top:5px;
+	}
+#videofolder{
+	height:570px;
+	width:1040px;
+	background:url(video%20pics.png);
+	position:absolute;
+	margin-left:130px;
+	margin-top:-620px;
+	visibility:hidden;
+	}
+#videos{
+	height:440px;
+	width:890px;
+	//border:#F00 solid 1px;
+	margin-left:150px;
+	margin-top:170px;
+	}
+.videobox{
+	height:190px;
+	width:252px;
+	border:transparent solid 1px;
+	float:left;
+	margin-left:42px;
+	margin-top:28px;
+	}
+.videobox:hover{
+	border:#06C solid 1px;
+	background:#09C;
+	opacity:0.3;
+	}
+.videobox2{
+	height:175px;
+	width:252px;
+	border:transparent solid 1px;
+	float:left;
+	margin-left:42px;
+	margin-top:5px;
+	}
+.videobox2:hover{
+	border:#06C solid 1px;
+	background:#09C;
+	opacity:0.3;
+	}
+.videoplaybox{
+	height:570px;
+	width:1040px;
+	position:absolute;
+	background:#000;
+	//border:#F00 solid 1px;
+	margin-left:130px;
+	margin-top:-620px;
+	}
+.videosap{
+	height:571px;
+	width:1040px;
+	background:#000;
+	margin-left:130px;
+	margin-top:-620px;
+	position:absolute;
+	visibility:hidden;
+	}
+.videos{
+	height:571px;	
+}
+
+
+#videoclose{
+	height:22px;
+	width:35px;
+	//background:#F00;
+	margin-left:1135px;
+	margin-top:-620px;
+	position:absolute;
+	visibility:hidden;
+	}	
+#videoclose:hover{
+	background:#F00;
+	}
+#closelogo{
+	margin-left:12px;
+	margin-top:5px;
+	opacity:0.0;
+	}
+#closelogo:hover{
+	opacity:1;
+	}
+#control{
+	height:20px;
+	width:900px;
+	background:#0C6;
+	position:absolute;
+	margin-left:252px;
+	margin-top:-620px
+	}
+.conbtn{
+	height:20px;
+	width:30px;
+	//background:transparent;
+	float:right;
+	}
+.conbtn:hover{
+	background:#039;
+	}
+#conbtn1{
+	background:#0C6;
+	}
+#conbtn1:hover{
+	visibility:hidden;
+	}
+#conbtn2{
+	height:20px;
+	width:30px;
+	float:right;
+	margin-top:-17px;
+	//visibility:hidden;
+	}
+#conbtn2:hover{
+	visibility:visible;
+	background:#039;
+	}
+
+#close{
+	height:20px;
+	width:35px;
+	background:#900;
+	float:right;
+	}
+#close:hover{
+	background:#F00;
+	}
+	
+
+
+
+#window8{
+	height:571px;
+	width:1040px;
+	background:#006;
+	position:absolute;
+	margin-top:-620px;
+	margin-left:130px;
+	}
+#theme{
+	height:120px;
+	width:1040px;
+	position:absolute;
+	background:transparent;
+	}
+#user{
+	height:60px;
+	width:220px;
+	background:transparent;
+	margin-top:35px;
+	float:right;
+	margin-right:10px;
+	}
+#user:hover{
+	cursor:pointer;
+	background:#03C;
+	}
+.user1{
+	margin:10px;
+	}
+.soff{
+	height:50px;
+	width:50px;
+	background:transparent;
+	float:right;
+	margin-right:10px;
+	margin-top:40px;
+	}
+.soff:hover{
+	cursor:pointer;
+	background:#03C;
+	}
+#dropdown{
+	position:relative;
+	display:inline-block;
+	}
+#drop-menu{
+	display:none;
+	min-width:110px;
+	height:100px;
+	background:#FFF;
+	z-index:1;
+	}
+#drop-menu .xyz{
+	display:block;
+	height:20px;
+	background:#FFF;
+	margin-top:5px;
+	padding:10px;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+#drop-menu .xyz:hover{
+	cursor:pointer;
+	background:#CCC;
+	}
+//#dropdown: #drop-menu{
+	display:block;
+	}
+	
+	
+#boot{
+	height:571px;
+	width:1040px;
+	position:absolute;
+	margin-top:-620px;
+	margin-left:130px;
+	background:url(desktop2.png);
+	display:none;
+	transition:height 0.3s;
+	animation-name: login;
+    animation-duration: 10s;
+	}
+
+
+@keyframes login {
+    0% {background:url(java%20with%20name.png);}
+	50%{background:url(java%20with%20name.png);}
+	100%{background:url(desktop2.png)}
+	}
+
+#sleep{
+	height:571px;
+	width:1040px;
+	position:absolute;
+	visibility:hidden;
+	background:-webkit-linear-gradient(-50deg, black, #333);
+	margin-left:130px;
+	margin-top:-620px;
+	}
+
+
+#logon{
+	height:0px;
+	width:1040px;
+	background:#0C6;
+	position:absolute;
+	margin-top:-620px;
+	margin-left:130px;
+	transition:height 0.2s;
+	}
+#login{
+	height:250px;
+	width:550px;
+	background:transparent;
+	position:absolute;
+	margin-left:250px;
+	margin-top:150px;
+	}
+#rest{
+	height:571px;
+	width:1040px;
+	position:absolute;
+	background:url(desktop2.png);
+	margin-left:130px;
+	margin-top:-620px;
+	display:none;
+	
+	animation-name: rest;
+    animation-duration: 15s;
+	}
+
+
+@keyframes rest {
+    0% {background:url(Restart.png);}
+	29%{background:url(Restart.png);}
+	30%{background:black;}
+	49%{background:black;}
+	50%{background:url(java%20with%20name.png);}
+	99%{background:url(java%20with%20name.png);}
+	100%{background:url(desktop2.png)}
+	}

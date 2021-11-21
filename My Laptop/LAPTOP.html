@@ -1,0 +1,438 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Java laptops</title>
+<link href="Style for tab.css" rel="stylesheet" />
+</head>
+       <script>
+	   function savechange(){
+		   var day = document.getElementById('day').value;
+		   var month = document.getElementById('month').value;
+		   var year = document.getElementById('year').value;
+		   var hour = document.getElementById('hour').value;
+		   var mins = document.getElementById('mins').value;
+		   var sec = document.getElementById('sec').value;
+		  
+		  if(day.value === day.value){
+			  	document.getElementById('day1').value = day;
+			  }
+		  if(month.value === month.value){
+			  	document.getElementById('month1').value = month;
+			  }
+		  if(year.value === year.value){
+			  	document.getElementById('year1').value = year;
+			  }
+		
+			if(hour.value === hour.value){
+			  	document.getElementById('hour1').value = hour;
+			  }
+		  if(mins.value === mins.value){
+			  	document.getElementById('mins1').value = mins;
+			  }
+		  if(sec.value === sec.value){
+			  	document.getElementById('sec1').value = sec;
+			  }
+
+		   }
+       		</script>
+<script>
+	function login(){
+		   var x = document.getElementById('pass');
+		if(x.value == 8848){
+			document.getElementById('logon').style.visibility= 'hidden';
+			document.getElementById('pass').value= '';
+			document.getElementById('hint').style.visibility= 'hidden';
+			}
+
+		else{
+			document.getElementById('pass').value= 'Password Incorrect';
+			document.getElementById('pass').style.color= 'Red';
+			document.getElementById('hint').style.visibility= 'visible';
+			}
+		}
+</script>
+<body>
+<div id="tab">
+<div id="screen">
+<div id="Allicon">
+
+<div class="Iconbox" ondblclick="document.getElementById('mclose').style.visibility ='visible';document.getElementById('computer').style.visibility ='visible'">
+<center>
+<img src="Images/sborka.png" style="width:60px;" class="Icon" /><br />
+My PC
+</center>
+</div>
+
+<div class="Iconbox">
+<center>
+<img src="Images/play-button.png" class="Icon" /><br />
+Media Player
+</center>
+</div>
+
+<div class="Iconbox"><center><img src="Images/internet-explorer.png" class="Icon" /><br />internet-explorer</center></div>
+<div class="Iconbox" ondblclick="document.getElementById('whatsapp').style.visibility= 'visible'"><center><img src="Images/whatsapp.png" class="Icon" /><br />WhatsApp</center></div>
+<div class="Iconbox"><center><img src="Images/recycle-bin.png" class="Icon" /><br />recycle-bin</center></div>
+<div class="Iconbox"><center><img src="Images/google-chrome.png" class="Icon" /><br />Chrome</center></div>
+<div class="Iconbox"><center><img src="Images/gmail.png" class="Icon" /><br />E-mail</center></div>
+<div class="Iconbox" ondblclick="document.getElementById('skype').style.visibility= 'visible';document.getElementById('sclose').style.visibility= 'visible'"><center><img src="Images/skype.png" class="Icon" /><br />skype</center></div>
+<div class="Iconbox"><center><img src="Images/calendar.png" class="Icon" /><br />calendar</center></div>
+<div class="Iconbox" ondblclick="document.getElementById('wallpaper').style.visibility= 'visible'"><center><img src="Images/image.png" class="Icon" /><br />Wallpaper</center></div>
+<div class="Iconbox" ondblclick="document.getElementById('videofolder').style.visibility= 'visible';document.getElementById('control').style.visibility= 'visible'"><center><img src="Images/folder (1).png" class="Icon" /><br />Videos</center></div>
+
+</div> <!---All Icon Div Close here-->
+
+<div id="taskbar"></div>
+
+</div> <!---Screen Div Close here-->
+</div> <!---Screen Div Close here-->
+
+<img src="Images/power-button.png" height="28" width="28" style="position:absolute; margin-left:1100px; margin-top:-40px;" onclick="document.getElementById('boot').style.display= 'block';document.getElementById('black1').style.visibility= 'hidden'; document.getElementById('drop-menu').style.visibility= 'hidden'" />
+</div> <!---Tab Div Close here-->
+
+
+
+
+
+												<!---Taskbar Icons Start here-->
+<div id="dtaskbar"><div id="wind1" onclick="document.getElementById('window8').style.visibility= 'visible'"><center><img src="Images/windows-logo-silhouette (1).png" height="35" width="40" style="margin-top:8px;" /></center></div>
+<div class="taskmenu"><img src="Images/google-chrome.png" height="30" width="28" style="margin-top:5px; margin-left:10px; box-shadow:1px 1px #033;" /></div>
+<div class="taskmenu"><img src="Images/youtube-logo.png" height="30" width="28" style="margin-top:5px; margin-left:10px; box-shadow:1px 1px #033;" /></div>
+
+<div class="taskicon"><img src="Images/gmail.png" height="40" width="40" style="margin-top:3px; margin-left:10px;" /></div>
+<div class="taskicon"><img src="Images/powerpoint.png" height="40" width="40" style="margin-top:3px; margin-left:10px;" /></div>
+<div class="taskicon"><img src="Images/excel.png" height="40" width="40" style="margin-top:3px; margin-left:10px;" /></div>
+<div class="taskicon"><img src="Images/folder (1).png" height="40" width="40" style="margin-top:3px; margin-left:10px;" /></div>
+
+
+
+<div id="dtime" onclick="document.getElementById('settime').style.visibility= 'visible'"><center>12:10 PM<br />12-May-17</center></div>
+
+<div id="time" align="right" style="visibility:hidden;" onclick="document.getElementById('settime').style.visibility= 'visible'">
+<input type="text" id="hour1" style="height:10px; width:20px; color:#FFF; border:transparent; text-align:right; background:transparent;" />:<input type="text" id="mins1" style="height:10px; width:20px; color:#FFF; text-align:left; border:transparent; background:transparent;" /><input type="text" id="sec1" style="height:10px; width:40px; color:#FFF; border:transparent; background:transparent;" />
+
+<input type="text" id="day1" style="height:10px; width:20px; color:#FFF; text-align:right; border:transparent; background:transparent;" />-<input type="text" id="month1" style="height:10px; width:20px; color:#FFF; text-align:center; border:transparent; background:transparent;" />-<input type="text" id="year1" style="height:10px; width:40px; color:#FFF; border:transparent; background:transparent;" />                              
+</div> <!--time div close here-->
+
+<div style="height:40px; width:30px; float:right; margin-top:5px; font-family:Arial, Helvetica, sans-serif; text-align:center; color:#FFF; font-size:14px;">ENG<br />IN</div>
+
+<div onclick="document.getElementById('valume').style.visibility= 'visible'" style="height:29px; width:30px; float:right; margin-top:12px; font-family:Arial, Helvetica, sans-serif; text-align:center; color:#FFF; font-size:14px;"><img src="Images/speaker.png" height="30" width="20" onclick="document.getElementById('valume').style.visibility= 'hidden'" /></div>
+
+<div style="height:29px; width:30px; float:right; margin-top:12px; font-family:Arial, Helvetica, sans-serif; text-align:center; color:#FFF; font-size:14px;"><img src="Images/signal-bars.png" height="25" width="20" /></div>
+
+
+</div><!--Dtaskbar close here-->
+
+												<!---Taskbar Icons Close here-->
+                                                
+                                                <!--Set Time & date here-->
+       <div id="settime" style="height:300px; width:600px; background:#0C6; margin-left:550px; position:absolute; margin-top:-400px; border-Radius:15px; box-shadow:2px 2px 2px 3px #999; visibility:hidden;">
+      
+      <img src="Images/calendar (1).png" height="180" width="180" style="margin-left:60px;" /><img src="Images/clock.png" height="180" width="180" style="margin-left:120px;" />
+
+    <table border="0" width="280px" height="50px">
+        <tr><td>Date :</td><td><input type="text" id="day" style="height:20px; width:50px;" placeholder="Day" /></td><td><input type="text" placeholder="Month" id="month" style="height:20px; width:50px;" /></td><td><input type="text" id="year" placeholder="Year" style="height:20px; width:80px;" /></td></tr>
+        </table>
+        <table border="0" width="280px" height="50px" style="float:right; margin-top:-50px; margin-right:20px;">
+        <tr><td>Time :</td><td><input type="text" placeholder="Hours" id="hour" style="height:20px; width:50px;" /></td><td><input type="text" placeholder="Mins" id="mins" style="height:20px; width:50px;" /></td><td><input type="text" placeholder="AM/PM" id="sec" style="height:20px; width:80px;" /></td></tr>
+                                </table>
+      <input type="button" id="savechange" value="Save Change" onclick="savechange();document.getElementById('dtime').style.visibility= 'hidden';document.getElementById('time').style.visibility= 'visible';document.getElementById('settime').style.visibility= 'hidden'" style="height:35px; margin-left:440px; margin-top:15px; background:#F33; color:#FFF; font-size:18px; border-radius:10px 0px 10px 0px;" />
+                                </div>   
+
+                                  </div><!--Set Time & date Close here-->
+
+
+
+
+
+
+<div id="wallpaper"><!--Wallpaper Div Start here-->
+<div class="pics" onclick="document.getElementById('screen').style.background= 'url(Wallpaper/13267821_1011964558900018_2823030739079047522_n.jpg)'"><img src="Wallpaper/13267821_1011964558900018_2823030739079047522_n.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/13320182_1362192007221403_1375025396_n.jpg)'"><img src="Wallpaper/13320182_1362192007221403_1375025396_n.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/339979-5616x3744.jpg)'"><img src="Wallpaper/339979-5616x3744.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/338346-1920x1200.jpg)'"><img src="Wallpaper/338346-1920x1200.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/90bc5ed67cf2a21e8dcf793194c44fa8.jpg)'"><img src="Wallpaper/90bc5ed67cf2a21e8dcf793194c44fa8.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/296098-2560x1600.jpg)'"><img src="Wallpaper/296098-2560x1600.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/310147-1920x1200.jpg)'"><img src="Wallpaper/310147-1920x1200.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/312057-1920x1280.jpg)'"><img src="Wallpaper/312057-1920x1280.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/315463-1920x1200.jpg)'"><img src="Wallpaper/315463-1920x1200.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/316432-1920x1080.jpg)'"><img src="Wallpaper/316432-1920x1080.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/882067-ruins-wallpaper.jpg)'"><img src="Wallpaper/882067-ruins-wallpaper.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/Full-HD-Wallpapers-5A9.jpg)'"><img src="Wallpaper/Full-HD-Wallpapers-5A9.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/Icelands%20Ring%20Road%20Wallpapers%20%20HD%20Wallpapers.jpg)'"><img src="Wallpaper/Icelands Ring Road Wallpapers  HD Wallpapers.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/i-love-you-14981.jpg)'"><img src="Wallpaper/i-love-you-14981.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+<div class="pics" onclick="document.getElementById('screen').style.background='url(Wallpaper/red-forest-55016.jpg)'"><img src="Wallpaper/red-forest-55016.jpg" height="100" width="150" style="margin-left:5px; margin-top:5px;" /></div>
+
+<br />
+<br />
+
+<center>Themes
+<div id="themes" style="height:110px; width:450px; border:#0C6 solid 1px;">
+<div class="colors" style="background:#F33;" onclick="document.getElementById('wallpaper').style.border= '#F33 solid 5px';document.getElementById('taskbar').style.background= '#F33';document.getElementById('settime').style.background= '#F33';document.getElementById('valume').style.background= '#F33'"></div>
+
+<div class="colors" style="background:#F63;" onclick="document.getElementById('wallpaper').style.border= '#F63 solid 5px';document.getElementById('taskbar').style.background= '#F63';document.getElementById('settime').style.background= '#F63';document.getElementById('valume').style.background= '#F63'"></div>
+
+<div class="colors" style="background:#F66;" onclick="document.getElementById('wallpaper').style.border= '#F66 solid 5px';document.getElementById('taskbar').style.background= '#F66';document.getElementById('settime').style.background= '#F66';document.getElementById('valume').style.background= '#F66'"></div>
+
+<div class="colors" style="background:#F00;" onclick="document.getElementById('wallpaper').style.border= '#F00 solid 5px';document.getElementById('taskbar').style.background= '#F00';document.getElementById('settime').style.background= '#F00';document.getElementById('valume').style.background= '#F00'"></div>
+
+<div class="colors" style="background:#FC0;" onclick="document.getElementById('wallpaper').style.border= '#FC0 solid 5px';document.getElementById('taskbar').style.background= '#FC0';document.getElementById('settime').style.background= '#FC0';document.getElementById('valume').style.background= '#FC0'"></div>
+
+<div class="colors" style="background:#0C6;" onclick="document.getElementById('wallpaper').style.border= '#0C6 solid 5px';document.getElementById('taskbar').style.background= '#0C6';document.getElementById('settime').style.background= '#0C6';document.getElementById('valume').style.background= '#0C6'"></div>
+
+<div class="colors" style="background:#0F6;" onclick="document.getElementById('wallpaper').style.border= '#0F6 solid 5px';document.getElementById('taskbar').style.background= '#0F6';document.getElementById('settime').style.background= '#0F6';document.getElementById('valume').style.background= '#0F6'"></div>
+
+<div class="colors" style="background:#66F;" onclick="document.getElementById('wallpaper').style.border= '#66F solid 5px';document.getElementById('taskbar').style.background= '#66F';document.getElementById('settime').style.background= '#66F';document.getElementById('valume').style.background= '#66F'"></div>
+
+<div class="colors" style="background:#6F9;" onclick="document.getElementById('wallpaper').style.border= '#6F9 solid 5px';document.getElementById('taskbar').style.background= '#6F9';document.getElementById('settime').style.background= '#6F9';document.getElementById('valume').style.background= '#6F9'"></div>
+
+<div class="colors" style="background:#0C0;" onclick="document.getElementById('wallpaper').style.border= '#0C0 solid 5px';document.getElementById('taskbar').style.background= '#0C0';document.getElementById('settime').style.background= '#0C0';document.getElementById('valume').style.background= '#0C0'"></div>
+
+<div class="colors" style="background:#0CF;" onclick="document.getElementById('wallpaper').style.border= '#0CF solid 5px';document.getElementById('taskbar').style.background= '#0CF';document.getElementById('settime').style.background= '#0CF';document.getElementById('valume').style.background= '#0CF'"></div>
+
+<div class="colors" style="background:#06F;" onclick="document.getElementById('wallpaper').style.border= '#06F solid 5px';document.getElementById('taskbar').style.background= '#06F';document.getElementById('settime').style.background= '#06F';document.getElementById('valume').style.background= '#06F'"></div>
+
+</div></center>
+
+<input type="button" value="Save change" style="background:#0F3; height:40px; width:150px; border:transparent; color:#FFF; font:Arial, Helvetica, sans-serif; font-size:20px; box-shadow:2px 2px 2px #0F6; border-radius:5px; margin-top:0px; margin-left:680px;" id="btn" onclick="document.getElementById('wallpaper').style.visibility='hidden';document.getElementById('controlwall').style.visibility='hidden'" />
+</div><!--wallpaper div closed-->
+
+
+
+</div><!--Wallpaper Div close here-->
+
+        
+                     
+        <!--video playing-->
+
+   
+        <!--video playing-->              
+<div id="videoclose" onclick="document.getElementById('video1').style.visibility= 'hidden';document.getElementById('video2').style.visibility= 'hidden';document.getElementById('video3').style.visibility= 'hidden';document.getElementById('video4').style.visibility= 'hidden';document.getElementById('video5').style.visibility= 'hidden';document.getElementById('video6').style.visibility= 'hidden';document.getElementById('video7').style.visibility= 'hidden';document.getElementById('video8').style.visibility= 'hidden';document.getElementById('video9').style.visibility= 'hidden';document.getElementById('videoclose').style.visibility= 'hidden'"><img src="Images/close (1).png" id="closelogo" height="10" width="10" /></div>
+
+
+
+	<!--Voluem-->
+     <div id="valume" style="height:220px; width:40px; background:#FC0; line-height:19px; border-radius:15px; position:absolute; margin-left:1000px; margin-top:-310px; color:#006; visibility:hidden;"><center><br />High<br /><br /><br /><br /><br /><br /><br /><input type="range" style="transform:Rotate(90deg); margin-left:-45px; margin-top:-50px;" /><br /><br />Low<input type="button" value="Exit" style="color:#FFF; background:#006; font-size:10px; margin-top:5px; border:transparent; border-radius:20px;" onclick="document.getElementById('valume').style.visibility= 'hidden'" /></center></div>
+    	<!--Voluem-->
+		
+  
+  
+  
+  
+  <div id="boot" onclick="document.getElementById('boot').style.height= '0px'; document.getElementById('logon').style.visibility= 'visible';  document.getElementById('logon').style.height= '571px'">
+	       
+            
+       </div><!--Boot Close here-->
+
+
+
+
+
+     <!--Window 8 Work Start Here-->
+  <div id="window8" style="visibility:hidden;">
+  
+<div id="theme">
+
+<p style="color:#FFF; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; font-size:50px; float:left; margin-left:70px; margin-top:20px;">Start</p>
+<div class="soff" onclick="document.getElementById('drop-menu').style.visibility= 'hidden'"><img src="Images/search.png" height="30" width="30" class="user1" /></div>
+
+<div class="soff" id="dropdown" onclick="document.getElementById('dropdown').style.display= 'block';document.getElementById('drop-menu').style.display= 'block';document.getElementById('drop-menu').style.visibility= 'visible'"><img src="Images/power.png" height="30" width="30" class="user1" />
+	<div id="drop-menu"><b>
+		<div class="xyz" onclick="document.getElementById('sleep').style.visibility= 'visible'">Sleep</div>
+        
+        
+        
+		<div class="xyz" onclick="document.getElementById('black1').style.visibility= 'visible'; document.getElementById('window8').style.visibility= 'hidden';">Shut Down</div>
+		
+        <div class="xyz" onclick="document.getElementById('rest').style.display= 'block'">Restart</div></b>
+	</div>
+</div>
+
+
+<div id="user">
+<p style="color:#FFF; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; font-size:22px; float:left; margin-left:10px; margin-top:15px;">JAVA EMPIRE</p>
+<img src="Satish Tally 20161230_105222.jpg" height="50" width="50" style="float:right; margin-right:10px; margin-top:5px;" />
+</div>
+
+</div>  <!--theme Div Close Here-->
+  
+  <div style="height:450px; width:1040px; float:left; background:#006; margin-top:120px;">
+<img src="window.png" onclick="document.getElementById('drop-menu').style.visibility= 'hidden';document.getElementById('window8').style.visibility= 'hidden'" />  
+  
+  </div>
+  
+  		</div><!--Window8 Div Close Here-->
+ 
+     <!--Window 8 Work Close Here-->
+ 
+
+ 
+        
+     <!--whatsApp Image-->
+     <img src="Images/end-to-end.png" height="570" width="1040" id="whatsapp" style="position:absolute; margin-top:-620px; margin-left:130px; visibility:hidden;" onclick="document.getElementById('whatsapp').style.visibility= 'hidden';document.getElementById('whatsapp1').style.visibility= 'visible'" />
+     
+     <img src="Images/Whatsapp_Encryption_Proxima-1024x600.jpg" height="570" width="1040" onclick="document.getElementById('whatsapp1').style.visibility= 'hidden'" id="whatsapp1" style="position:absolute; margin-top:-620px; margin-left:130px; visibility:hidden;" />
+			<!--whatsApp Image-->
+            
+
+            <!--Skype Image-->
+	<img src="Images/skype-11-700x505.png" height="505" width="700" id="skype" style="position:absolute; margin-top:-600px; margin-left:450px; visibility:hidden;" />
+    <div id="sclose" style="height:20px; width:30px; background:transparent; position:absolute; margin-top:-600px; margin-left:1114px; visibility:hidden;" onclick="document.getElementById('skype').style.visibility= 'hidden';document.getElementById('sclose').style.visibility= 'hidden'"></div>
+      <!--Skype Image-->
+ 
+            <!--mY cOMPUTER Image-->
+	<img src="Images/My Colputer.png" id="computer" height="571" width="1040" style="position:absolute; margin-top:-620px; margin-left:130px; visibility:hidden;" />
+        <div id="mclose" style="height:15px; width:30px; background:transparent; position:absolute; margin-top:-620px; margin-left:1138px; visibility:hidden;" onclick="document.getElementById('computer').style.visibility= 'hidden';document.getElementById('mclose').style.visibility= 'hidden'"></div>
+
+      <!--My Coputer Image-->
+
+
+
+				<!--Black Screen 1st--> 
+ <div id="black1" style="height:571px; width:1040px; background:-webkit-linear-gradient(-50deg, black, #333); position:absolute; margin-left:130px; margin-top:-620px;"></div>
+				<!--Black Screen 1st-->
+
+
+
+
+	<div id="videofolder">						<!--Video Divs Start here-->
+<img src="control.png" height="23" width="102" style="position:absolute; margin-left:938px; margin-top:1px;" onclick="document.getElementById('videofolder').style.visibility= 'hidden'" />
+<div id="videos">
+		<div class="videobox" ondblclick="document.getElementById('video1').style.visibility= 'visible'" ></div>
+
+		<div class="videobox" ondblclick="document.getElementById('video2').style.visibility= 'visible'" ></div>
+
+		<div class="videobox" ondblclick="document.getElementById('video3').style.visibility= 'visible'" ></div>
+
+		<div class="videobox2" ondblclick="document.getElementById('video4').style.visibility= 'visible'" ></div>
+
+		<div class="videobox2" ondblclick="document.getElementById('video5').style.visibility= 'visible'"></div>
+
+		<div class="videobox2" ondblclick="document.getElementById('video6').style.visibility= 'visible'"></div>
+
+</div>
+   
+                      </div>  <!--Video Divs Close here-->
+
+		<!--Playing Videos-->
+     <div class="videosap" id="video1">
+      <video class='videos' width="1040" controls ondblclick="document.getElementById('video1').style.visibility= 'hidden'">
+  <source src="Billi Akh Prabh Gill hr-.mp4" type="video/mp4">
+  <source src="Billi Akh Prabh Gill hr-.mp4" type="video/ogg">
+</video>   
+
+			</div>    
+     <div class="videosap" id="video2">
+      <video class='videos' width="1040" controls ondblclick="document.getElementById('video2').style.visibility= 'hidden'">
+  <source src="Chakkwein Suit (Full Video) Tigerstyle Feat. Kulwinder Billa _ Preet Kanwal_HD.mp4" type="video/mp4">
+  <source src="Chakkwein Suit (Full Video) Tigerstyle Feat. Kulwinder Billa _ Preet Kanwal_HD.mp4" type="video/ogg">
+</video>   
+			</div>    
+
+     <div class="videosap" id="video3">
+      <video class='videos' width="1040" controls ondblclick="document.getElementById('video3').style.visibility= 'hidden'">
+  <source src="Classmate (Remix) - Jassi Gill , Kaur B - Daddy Cool Munde Fool.mp4" type="video/mp4">
+  <source src="Classmate (Remix) - Jassi Gill , Kaur B - Daddy Cool Munde Fool.mp4" type="video/ogg">
+</video>   
+			</div>    
+
+     <div class="videosap" id="video4">
+      <video class='videos' width="1040" controls ondblclick="document.getElementById('video4').style.visibility= 'hidden'">
+  <source src="Meri_Sardarniye_-_Ranjit_Bawa.mp4" type="video/mp4">
+  <source src="Meri_Sardarniye_-_Ranjit_Bawa.mp4" type="video/ogg">
+</video>   
+
+			</div>    
+     <div class="videosap" id="video5">
+        <video class='videos' width="1040" controls ondblclick="document.getElementById('video5').style.visibility= 'hidden'">
+  <source src="Mujhko Barsaat Bana Lo Video Song Junooniyat HD-VipKHAN.mp4" type="video/mp4">
+  <source src="Mujhko Barsaat Bana Lo Video Song Junooniyat HD-VipKHAN.mp4" type="video/ogg">
+</video> 
+			</div>    
+
+     <div class="videosap" id="video6">
+        <video class='videos' width="1040" controls ondblclick="document.getElementById('video6').style.visibility= 'hidden'">
+  <source src="Rabba -Heropanti[PagalworldCom](HD 1280x720)_01_001.mp4" type="video/mp4">
+  <source src="Rabba -Heropanti[PagalworldCom](HD 1280x720)_01_001.mp4" type="video/ogg">
+</video>       
+			</div>    
+
+			<!--Playing Videos-->
+
+
+       
+        
+        <!--Login System-->
+        
+       <div id="logon" style="visibility:hidden;">
+        
+  <div id="login">
+       
+       <div id="back" style="border:transparent solid 2px; height:40px; width:40px; float:left; border-radius:360px;">
+       
+       <img src="Images/left-arrow.png" height="30" width="30" style="margin-top:5px;" /></div><img src="Satish Tally 20161230_105222.jpg" height="200" width="200" style="float:left; margin-left:10px;"/>
+       
+       <div style="height:200px; width:260px; line-height:30px; color:#FFF; font-family:Arial, Helvetica, sans-serif; font-size:20px; float:left; margin-left:10px;">
+       JAVA EMPIRE<br />
+		<input type="password" id="pass" placeholder="Password" onclick="document.getElementById('pass').type= 'password';document.getElementById('pass').value= '';document.getElementById('pass').style.color= 'black'" style="width:210px; height:22px; position:relative; padding-right:32px; font-weight:900;" />
+       
+       <button onclick="login();document.getElementById('pass').type= 'text'; document.getElementById('boot').style.height= '571px'; document.getElementById('boot').style.display= 'none'; document.getElementById('rest').style.visibility= 'visible'; document.getElementById('rest').style.display= 'none'" style="height:23px; background:#0C6; width:28px; border:transparent; position:absolute; margin-left:-31px; border-radius:1px; margin-top:2px;"><img src="Images/next (1).png" height="22" width="18" /></button>
+       <div id="hint" style="color:#FFF; font-size:15px; visibility:hidden;">Hint : 8848</div>
+       
+
+       
+       </div>
+   
+       </div><!--Login Close here-->
+       
+<img src="Images/signal-bars.png" style="margin-top:520px; margin-left:20px; height:30px; width:30px;" />
+
+<img src="Images/power.png" style="margin-top:520px; float:right; margin-right:20px; height:25px; width:25px;" />
+<p style="color:#FFF; float:right; margin-top:520px; margin-right:10px; font-family:Arial, Helvetica, sans-serif; text-align:center;"><b>ENG</b><br />US</p>
+</div>
+
+<!--LogOn Close here-->
+
+
+
+			<!--Sleep Mode start-->
+      <div id="sleep" onclick="document.getElementById('logon').style.visibility= 'visible'; document.getElementById('sleep').style.visibility= 'hidden'; document.getElementById('drop-menu').style.visibility= 'hidden'">
+      
+      </div>
+ 			<!--Sleep Mode Close-->
+			
+<!--RestARTA--> 
+			<div id="rest" onclick="document.getElementById('rest').style.visibility= 'hidden'; document.getElementById('logon').style.visibility= 'visible'; document.getElementById('drop-menu').style.visibility= 'hidden'; document.getElementById('window8').style.visibility= 'hidden'">
+            
+            	</div>
+
+<p style="font-size:36px; position:absolute; margin-left:130px; margin-top:-45px; color:#CCC;">JAVA EMPIRE</p>
+
+<audio controls autoplay style="display:none;">
+  <source src="wwe Roman Reigns 2nd WWE Theme Song - The Truth Reigns.WAV" type="audio/WAV"> 
+</audio>
+
+</body>
+</html>
